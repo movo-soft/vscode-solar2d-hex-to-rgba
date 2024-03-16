@@ -1,8 +1,9 @@
 {
 	"name": "solar2d-hex-to-normalized-color",
-	"description": "A plugin to convert RGB or RGBA to a normalized table (e.g. { 1.00, 1.00, 1.00 }). the plugin works with #fff notation as well",
-	"version": "0.1.0",
+	"description": "A plugin to convert RGB or RGBA to a normalized table in Solar2d (e.g. { 1.00, 1.00, 1.00 }). The plugin works with #fff notation as well",
+	"version": "0.2.0",
 	"publisher": "movosoft",
+  "author": "Lio <lionel@movo-soft.com>",
 	"repository": "https://github.com/movo-soft/vscode-solar2d-hex-to-rgba.git",
 	"engines": {
 		"vscode": "^1.74.0"
@@ -28,5 +29,6 @@
 	"scripts": {},
 	"devDependencies": {
 		"@types/vscode": "^1.73.0"
-	}
+	},
+  "icon": "icon.png"
 }
